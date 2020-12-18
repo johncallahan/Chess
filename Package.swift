@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "Chess",
     platforms: [
-        .iOS(.v11),
+        .iOS(.v9),
     ],
     targets: [
         .target(name: "Chess", path: "Chess"),
